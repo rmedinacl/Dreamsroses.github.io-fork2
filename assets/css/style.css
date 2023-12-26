@@ -1,0 +1,29 @@
+/* Carrusel */
+.line {
+    border-left: 3px solid rgb(137, 137, 137);
+    height: 350px;
+    margin-left: 50%;
+}
+
+.carousel-item {
+    padding: 20px;
+    height: 550px;
+    background-position: 60%;
+    filter: grayscale(80%);
+    background-image: url(../img/bg-carrusel_1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.title_name{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cv_title{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+
+}
