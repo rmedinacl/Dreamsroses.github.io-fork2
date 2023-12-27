@@ -22,9 +22,11 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Agregar logo Aqui</a>
+            <a class="navbar-brand" href="#">
+                <img class="w-50" src="./assets/img/terminal.png" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -50,7 +52,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="line">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h5 class="cv_title">Curriculum Vitae</h5>
                     <h1 class="title_name">ROSA MORALES</h1>
                 </div>
@@ -60,12 +62,10 @@
     </div>
 
     <!-- Resumen -->
-    <main class="container my-5">
+    <main class="container-fluid my-5 p-5 text-bg-dark">
         <div class="row">
             <div class="col-md-6 p-5 d-flex justify-content-center">
-                <h4 class="
-            }
-            ">Resumen</h4>
+                <h2 class="">Resumen</h2>
             </div>
             <div class="col-md-6">
                 <p class="resumen_paragraph">
@@ -84,67 +84,75 @@
     </main>
 
 
-    <section class="container">
+    <!-- Formacion -->
+
+    <section class="container my-5">
         <div class="row">
-            <div class="col-md-6 bg-success p-5 d-flex justify-content-center">
+            <div class="col-md-6 d-flex justify-content-center">
+                <h2>Formación</h2>
             </div>
             <div class="col-md-6">
-                <h2>Datos Personales</h2>
+                <ul class="formacion_list">
+                    <li>Diseñadora gráfica de profesión y con estudios en experiencia usuario</li>
+                    <li>Product Manager | Coderhouse 2021</li>
+                    <li>UX/UI Design Foundations | Uxcel 2020</li>
+                    <li>
+                        Diseño Gráfica, Instituto ESUCOMEX Marzo 2015 - Noviembre 2017 |
+                        Instituto Esucomex | Egresado/Titulado
+                    </li>
+                    <li>
+                        Administración de Redes Comunicacionales Septiembre 2005 - Diciembre
+                        2005 | Fundacion de Formación para el Trabajo Romanos XII
+                    </li>
+                </ul>
 
-                <ul>
-                    <li>Nombre: Rosa Alexandra Morales Rojas</li>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="container-fluid my-5 p-5 text-bg-dark">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center">
+                <h2>Experiencia laboral</h2>
+            </div>
+            <div class="col-md-6">
+                <ol class="experiencia_lista">
+                    <li>Cenco | Design Lead | Abril 2022 a la actualidad</li>
+                    <li>Mira 360 | Diseñador gráfico y Desarrollo web | 2018/2019</li>
+                    <li>Hiway | Business operation assistant | 2005/2018</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Datos Personales -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">Datos Personales</h2>
+                <h5 class="text-center"> Rosa Alexandra Morales Rojas</h5>
+                <p class="text-center">Design Lead en Cencosud Paris</p>
+                <ul class="my-5">
                     <li>Lugar de nacimiento: San Carlos</li>
                     <li>Fecha de Nacimiento: 22 Marzo 1984</li>
+                    <li><a target="_blank" class="text-left" href="https://www.linkedin.com/in/rosa-morales-rojas/">Linkedin</a>
+                    </li>
                 </ul>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <img class="image_perfil" src="./assets/img/me.jpg" alt="mi foto de perfil" />
             </div>
         </div>
 
     </section>
 
-    <!-- 
-                <img class="" src="./assets/img/me.jpg" alt="mi foto de perfil" /> -->
 
-
-    <h2>Formación</h2>
-
-    <p>Diseñadora gráfica de profesión y con estudios en experiencia usuario</p>
-
-    <h3>Estudios</h3>
-
-    <ul>
-        <li>Product Manager | Coderhouse 2021</li>
-        <li>UX/UI Design Foundations | Uxcel 2020</li>
-        <li>
-            Diseño Gráfica, Instituto ESUCOMEX Marzo 2015 - Noviembre 2017 |
-            Instituto Esucomex | Egresado/Titulado
-        </li>
-        <li>
-            Administración de Redes Comunicacionales Septiembre 2005 - Diciembre
-            2005 | Fundacion de Formación para el Trabajo Romanos XII
-        </li>
-    </ul>
-
-    <h2>Experiencia laboral</h2>
-    <ol>
-        <li>Cenco | Diseñador App | Abril 2022 a la actualidad</li>
-        <li>Mira 360 | Diseñador gráfico y Desarrollo web | 2018/2019</li>
-        <li>Hiway | Business operation assistant | 2005/2018</li>
-    </ol>
-
-    <a target="_blank" href="./portafolio.html"><button style="
-          width: 200px;
-          height: 60px;
-          background-color: rgb(34, 123, 178);
-          border-radius: 25px;
-          color: aliceblue;
-        ">
-            Ir al Portafolio
-        </button></a>
-
-    <h3>Si quieres conocer mi perfil te invito a seguirme en Linkedin</h3>
-
-    <a target="_blank" href="https://www.linkedin.com/in/rosa-morales-rojas/"><img width="80px"
-            src="./assets/img/linkedin.png" alt="Logo linkedin" /></a>
+    <footer class="mt-5 p-5 text-bg-dark text-center">
+        <p>Todos los Derechos reservados - G64 2023 </p>
+    </footer>
 
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

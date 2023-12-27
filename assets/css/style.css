@@ -11,7 +11,6 @@
 }
 
 .carousel-item {
-    padding: 20px;
     height: 550px;
     background-position: 60%;
     filter: grayscale(80%);
@@ -23,19 +22,28 @@
 .title_name {
     font-size: 4rem;
     font-family: 'Poppins', sans-serif;
-    background: rgba(101, 101, 101, 0.5)
+    background: rgba(101, 101, 101, 0.5);
+    text-align: center;
+    
 }
 
 .cv_title {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 25px;
     text-transform: uppercase;
-    background: rgba(101, 101, 101, 0.5)
+    background: rgba(101, 101, 101, 0.5);
+    text-align: center;
 }
 
-/* Resumen */
-.resumen_paragraph {
+.image_perfil{
+    border-radius: 10px;
+    filter: grayscale(10px);
+    width: 70%;
+}
+
+.resumen_paragraph, .formacion_list, .experiencia_lista{
     line-height: 40px;
+    text-align: justify;
 }
 
 
