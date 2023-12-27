@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* Carrusel */
 .line {
-    border-left: 3px solid rgb(137, 137, 137);
+    border-left: 3px solid rgb(255, 255, 255);
     height: 350px;
     margin-left: 50%;
 }
@@ -10,20 +15,68 @@
     height: 550px;
     background-position: 60%;
     filter: grayscale(80%);
-    background-image: url(../img/bg-carrusel_1.jpg);
+    background-image: url(../img/bg-laptop.jpg);
     background-position: center center;
     background-size: cover;
 }
 
-.title_name{
+.title_name {
     font-size: 4rem;
     font-family: 'Poppins', sans-serif;
-
+    background: rgba(101, 101, 101, 0.5)
 }
 
-.cv_title{
+.cv_title {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 25px;
     text-transform: uppercase;
-
+    background: rgba(101, 101, 101, 0.5)
 }
+
+/* Resumen */
+.resumen_paragraph {
+    line-height: 40px;
+}
+
+
+/* Vista portafolio */
+.banner_portafolio {
+    height: 550px;
+    filter: grayscale(80%);
+    background-image: url(../img/bg-portafolio.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+.title_portafolio {
+    font-size: 4rem;
+    color: gray;
+    font-weight: 700;
+}
+
+
+.trabajos-button,
+.contacto-button {
+    text-decoration: none;
+    color: white;
+}
+
+/* Acerca de Mi */
+.quote-right {
+    width: 5%;
+    display: inline-block;
+    margin: 0 40px 70px 0;
+}
+
+.quote-left {
+    width: 5%;
+    display: inline-block;
+    margin: 0 0 0 40px;
+}
+
+.landing-anchor, .iguana-anchor, .cuppon-anchor{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
