@@ -42,7 +42,7 @@
 }
 
 .resumen_paragraph, .formacion_list, .experiencia_lista{
-    line-height: 40px;
+    line-height: 35px;
     text-align: justify;
 }
 
@@ -88,3 +88,21 @@
     color: aliceblue;
   }
   
+  .card-height{
+    height: 394px;
+  }
+
+  .contact_paragraph{
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+
+  /* Vista Send Mail */
+
+  .sendmail_landing, .back_portafolio{
+    text-decoration: none;
+    color: aliceblue;
+  }
+
