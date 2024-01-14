@@ -29,7 +29,7 @@
 
 .cv_title {
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 25px;
+    letter-spacing: 1rem;
     text-transform: uppercase;
     background: rgba(101, 101, 101, 0.5);
     text-align: center;
